@@ -1,0 +1,39 @@
+1 ДЗ
+String name;
+name = "Andrey";
+String surname;
+surname = "Vinnikov";
+String prof;
+prof = "QA";
+System.out.println(name + " " + surname + " " + prof);
+System.out.println(String.format("%s %s %s", name, surname,prof));
+
+2 ДЗ
+byte x = 2;
+byte y = (byte)(x + 2);
+
+int a = 15;
+int b = 10;
+double c = (int)(a + b);
+
+int a = 10;
+int b = 15;
+long d = a-b;
+System.out.println(d);
+
+
+
+
+3 ДЗ
+String vvod;
+vvod = "Введите че нить: ";
+System.out.print(vvod);
+Scanner scan = new Scanner(System.in);
+String zapis = scan.nextLine();
+System.out.println(String.format("%s", zapis));
+Boolean poluchit = zapis.contains("программист");
+System.out.println(poluchit);
+String dobavit = zapis.concat(" и это 100% так");
+System.out.println(dobavit);
+String nijReg = zapis.toLowerCase();
+System.out.println(nijReg);
